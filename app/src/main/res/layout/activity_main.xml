@@ -100,14 +100,34 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/textView6"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/RadioGroupG"
         android:layout_alignRight="@+id/textView5"
-        android:layout_alignEnd="@+id/textView5"
-        android:layout_below="@+id/editTextPhone">
+        android:layout_alignEnd="@+id/textView5">
 
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/radioButtonM" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/radioButtonF" />
     </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/editTextPhone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
