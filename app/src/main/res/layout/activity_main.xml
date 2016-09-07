@@ -129,6 +129,51 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/editTextPhone"
+        android:layout_alignLeft="@+id/checkBoxID"
+        android:layout_alignStart="@+id/checkBoxID" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indonesia"
+        android:id="@+id/checkBoxID"
+        android:layout_below="@+id/textView7"
+        android:layout_toLeftOf="@+id/checkBoxMA"
+        android:layout_toStartOf="@+id/checkBoxMA" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:id="@+id/checkBoxEN"
+        android:layout_below="@+id/checkBoxID"
+        android:layout_alignLeft="@+id/checkBoxID"
+        android:layout_alignStart="@+id/checkBoxID" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mandarin"
+        android:id="@+id/checkBoxMA"
+        android:layout_above="@+id/checkBoxEN"
+        android:layout_alignRight="@+id/editTextPhone"
+        android:layout_alignEnd="@+id/editTextPhone" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other"
+        android:id="@+id/checkBoxOT"
+        android:layout_below="@+id/checkBoxMA"
+        android:layout_toRightOf="@+id/checkBoxID"
+        android:layout_toEndOf="@+id/checkBoxID" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
