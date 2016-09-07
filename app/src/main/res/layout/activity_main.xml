@@ -174,14 +174,32 @@
         android:layout_toRightOf="@+id/checkBoxID"
         android:layout_toEndOf="@+id/checkBoxID" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Religion"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/RadioGroupG"
+        android:layout_alignLeft="@+id/buttonOK"
+        android:layout_alignStart="@+id/buttonOK" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/religion"
+        android:id="@+id/spinnerRe"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="OK"
         android:id="@+id/buttonOK"
+        android:layout_below="@+id/spinnerRe"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/RadioGroupG" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
